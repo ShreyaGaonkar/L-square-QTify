@@ -56,6 +56,7 @@ function App() {
       <Hero />
       <div className={styles.sectionWrapper}>
         <Section type='album' title='Top Albums' data={topAlbumSongs} />
+        <Section type='album' title='New Albums' data={newAlbumSongs} />
       </div>
     </>
   )
